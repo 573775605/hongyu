@@ -1,0 +1,14 @@
+.MlevelList{width:90%; padding: 0 5%; margin-top: 5%;}
+.MlevelList li{border-left: 1px solid #e4e4e4;position: relative; padding-bottom: 10px;padding-left: 5%;}
+.MlevelList li:before{content: ""; position: absolute;     top: 1px;    left: -8px;background: url(../img/0.png) no-repeat;width: 20px; height: 20px;    background-size: 300%;    background-position: 0 -133px;}
+.MlevelListword1{font-size:12px;color: #9B9B9B;margin-bottom: 10px;}
+.MlevelListword2{border:1px solid #ECECEC;background: #fff;text-indent:1rem;width: 94%;padding:0 3%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.MXdlall{padding:3% 0;}
+.MXdlall dt{float: left;width:40%;text-align: right;font-size:10px;color: #999;}
+.MXdlall dd{float: left;width:60%;text-align: left; font-size:12px;color: #555;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+
+.Mlevelgreen{color: #46AF1C; margin-left: 5px;}
+.Mlevelred{color: #FF2A49; margin-left: 5px;}
+.Mlevelyellow{font-size:12px;color: #F98C3D;}
+.borderB{border-bottom: 1px solid #F1F1F1;}

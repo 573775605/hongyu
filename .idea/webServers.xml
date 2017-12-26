@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="362cabbe-514d-4bef-b417-23fedc030381" name="herry_hongyu" url="http://60.205.187.244">
+        <fileTransfer host="60.205.187.244" port="22" rootFolder="/home/www/sanjon.net" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+/*优惠券*/
+.Coupon{ padding:0 3%;width: 100%; height: 40px;background: #FFFFFF;box-shadow: inset 0 -1px 0 0 #EBEBEB;}
+.Coupon li{width: 33.3%; float: left; height: 40px; line-height: 40px;text-align: center;}
+.Coupon li a{font-size:14px;color: #999999;}
+.Coupon li.active{border-bottom: 2px solid #FF2A49;}
+.Coupon li.active a{color:#FF2A49;}
+
+.Couponcont{padding:3%;}
+.Couponcont ul{display: none;width: 100%;}
+.Couponcont ul.active{display: block;}
+.Couponcont ul li{background: #FFFFFF;border: 1px solid #E8E8E8;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;padding: 3%; height: auto; overflow: hidden; margin-bottom: 3%; position: relative;}
+.couRed,.couGrey{position:absolute;top: 0;left:0px;width: 10px;height: 100%;}
+.Couponcont ul li .couRed:before,.Couponcont ul li .couGrey:before{content:""; position: absolute;    top: 2px;    left: 7px;width: 10px;height: 100%;background: url(../../img/8.png) repeat-y;background-size:35%;}
+.Couponcont ul li .couRed{    background-color:#FF2A49;}
+.Couponcont ul li .couGrey{    background-color:#999;}
+
+.usedimg,.passedimg{position: absolute; bottom: 10px; right: 10px;width: 50px; height: 50px;}
+.usedimg:before,.passedimg:before{content: "";top: 0;left: 0; position: absolute;background:url(../img/0.png) no-repeat;width: 50px; height: 50px;background-size: 100%;}
+.usedimg:before{background-position: 0 -248px;}
+.passedimg:before{background-position: 0 -304px;}
+.Couponcont ul li a{display: block;position: relative;}
+.couPrice{text-align: center;width: 32%; height: 100%; }
+.couPrice em{font-size:15px;color: #FF455A;}
+.couPrice span{font-size:40px;color: #FF2A49;}
+.couPrice p{font-size:12px;color: #999999;}
+.couPriceGrey em,.couPriceGrey span{color: #999;}
+.couwords{width:64%;border-left: 1px solid #EDEDED;padding-left: 3%;}
+.couwords1{font-size:14px;color: #505050;line-height:17px;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2; height: 35px;}
+.couwords2{font-size:11px;color: #999999;}
+.couwords3{font-size:11px;color: #999999;}
+/*.used,.Expired{position: absolute;right: 3%;}*/ 
