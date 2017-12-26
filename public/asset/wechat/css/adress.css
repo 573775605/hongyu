@@ -1,0 +1,23 @@
+/*地址*/
+.dib{display: inline-block;}
+.ellipsisTwo{position: relative;}
+.Mo{font-size:14px;color: #F7525A;}
+.chepoa{position: absolute;top: 50%;right: 3%; margin-top: -10px;background: url(../img/checked.png) no-repeat;width: 20px; height: 20px; background-size: 100%;}
+.write,.del,.setMo{position: relative;padding-left: 30px;font-size:14px;color: #999999;margin-right: 10px;}
+.write:after{content: ""; position: absolute;    top: 0px;    right: 35px;background: url(../img/write.png) no-repeat;    width: 19px;    height: 20px;background-size: 100%;}
+.del:after{content: ""; position: absolute;    top: 0px;    right: 35px;background: url(../img/del.png) no-repeat;    width: 17px;    height: 23px;background-size: 100%;}
+.setMo:after{content: ""; position: absolute;      top: 2px;    right: 63px;background: url(../img/mo.png) no-repeat;    width: 17px;    height: 23px;background-size: 100%;}
+.bianji{padding:10px 0;}
+.adresswrite li{ margin: 10px 0;    padding: 3% 20px 3% 3%;background-color: #fff;}
+.addAdress{text-align: center;  width: 90%; margin:30px auto;background:#F8525A;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.addAdress>input{font-size:14px;color: #FFFFFF;height: 45px; line-height: 45px;}
+.addAdressList{margin-top: 10px;background-color: #fff;}
+.addAdressList li{padding:12px 0%;border-bottom: 1px solid #D1D1D1;}
+.addAdressList li>input,.addAdressList li>textarea{font-size: 14px;color: #999;text-indent: 14px;}
+.addAdressList li>textarea{min-height:100px;}
+.JTright3{position: relative;}
+.JTright3:after {  content: "";    position: absolute;    top: 54%;    right: 3%;    background: url(../../img/JTR.png) no-repeat;    background-size: 100%;    width: 12px;    height: 25px;    margin-top: -11px;}
+.ellipsisTwo{display:-webkit-box;-webkit-box-orient:vertical; -webkit-line-clamp:2;    height: 42px;    overflow: hidden;}
+.f12c64{font-size:14px;color: #646464;}
+.f15c1f{font-size: 15px;color: #1F323E;}
+.pt3630{padding:3% 10% 3% 0%;}

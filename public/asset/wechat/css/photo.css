@@ -1,0 +1,9 @@
+.cborder{ border: 1px dashed #ddd;}
+.cUl{background:#fff; padding:20px 0 10px 0;}
+.cUl li{float: left;width:70px; height:70px;  font-size: 14px;color: #666; line-height:70px;text-align: center; margin-left: 5px;position: relative; margin-bottom: 10px;border: 1px solid #E6E6E6;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.cUl li img{    position: absolute;    top: 0;    left: 0;width: 100%;height:100%;overflow: hidden;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.cadd{position: relative; height: 100%;}
+.cadd:before{position: absolute; top:0%; left:0%;content:"" ;background: url(../img/photo.png) no-repeat; width:100%; height:100%;background-size: 100%;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.cdel{position: absolute;top:-3px; right: 0;background: url(../img/cdel.png) no-repeat;width:30px; height:30px;background-size: 100%; }
+.cUl li{    width: 140px;    height: 140px;}
+.cad2:before{    margin-top: -69px;    margin-left: -69px;}
