@@ -18,7 +18,7 @@
 | loading any of our classes later on. It feels nice to relax.
 |
 */
-echo '111';die;
+
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*
