@@ -198,6 +198,7 @@ Route::group(
                     ['prefix' => 'goods-source'],
                     function () {
                         Route::get('index', 'GoodsSourceController@index');
+                        Route::get('citydata', 'GoodsSourceController@citydata');
                         Route::any('add', 'GoodsSourceController@add');
                         Route::any('edit/{id}', 'GoodsSourceController@edit');
                         Route::post('remove/{id}', 'GoodsSourceController@remove');

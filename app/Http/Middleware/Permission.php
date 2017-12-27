@@ -17,7 +17,10 @@ class Permission extends EntrustPermission
     public function handle($request, Closure $next, $permissions = '')
     {
         $permissions = $permissions ? : ltrim($request->route()->getCompiled()->getStaticPrefix(), '/');
-
+        print_r($permissions);die;
+//        $test = $request->user()->can(explode('|', $permissions));
+//        print_r($test);die;
+        print_r($request->user()->can(explode('|', $permissions)));die;
         if (!$request->user()->can(explode('|', $permissions))) {
             if ($request->ajax()) {
                 $data = [

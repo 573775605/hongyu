@@ -46,14 +46,20 @@
                             <div class="hr-line-dashed"></div>
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">货源所在地</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control m-b" name="parent_id">
-                                        @foreach($parent as $v)
-                                            <option value="{{$v->id}}">{{$v->name}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
+                                {{--<label class="col-sm-2 control-label">货源所在地</label>--}}
+                                {{--<div class="col-sm-10">--}}
+                                    {{--<select class="form-control m-b" name="parent_id">--}}
+                                        {{--@foreach($parent as $v)--}}
+                                            {{--<option value="{{$v->id}}">{{$v->name}}</option>--}}
+                                        {{--@endforeach--}}
+                                    {{--</select>--}}
+                                {{--</div>--}}
+
+                                <label for="type">选择获奖学生</label>
+                                <br>
+                                <select name="studentnum" id="" class='studentnum' data-url="{{URL('getmedalstujson')}}" data-json-space="data">
+                                    <option value="a">请选择</option>
+                                </select>
                             </div>
                             <div class="hr-line-dashed"></div>
 
@@ -146,6 +152,25 @@
             });
 
         });
+
+    </script>
+
+    {{-- 联动 --}}
+    <script charset="utf-8">
+
+        $(function () {
+            $('#studentsel').cxSelect({ //要做联动的DIV，这个必须设置！
+
+                selects: ['college_id', 'act_id','studentnum'], //要做联动的select的class
+                jsonName: 'name', //传回JSON时要应用的option名字
+                jsonValue: 'value', //传回JSON时要应用的option值
+                jsonSpace: 'data',//传回JSON时要应用的命名空间，例如传回来"data":['value':0,'name':1]
+                required:'true', //是否为必选
+
+            });
+
+
+        })
 
     </script>
 @stop

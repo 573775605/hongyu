@@ -25,6 +25,7 @@
 @yield('content')
 
 <script src="{{ asset('asset/admin/js/jquery.min.js?v=2.1.4') }}"></script>
+<script src="{{ asset('asset/admin/js/jquery.cxselect.min.js?v=2.1.4') }}"></script>
 <script src="{{ asset('asset/admin/js/bootstrap.min.js?v=3.3.6') }}"></script>
 <script src="{{ asset('asset/admin/js/plugins/sweetalert/sweetalert.min.js')}}"></script>
 <script src="{{ asset('asset/admin/js/plugins/layer/layer.min.js')}}"></script>
