@@ -91,7 +91,7 @@ class WechatController extends Controller
     {
         $menu = app('wechat')->menu;
         $buuton = [
-            [
+            [ 
                 "type" => "view",
                 "name" => "首页",
                 "url"  => url('wechat'),
